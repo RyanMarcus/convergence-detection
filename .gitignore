@@ -1,0 +1,4 @@
+res/vagrant/clean_dump.sql
+*.class
+*~
+
