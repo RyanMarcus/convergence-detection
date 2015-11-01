@@ -1,0 +1,22 @@
+{
+"db":{
+    "host":"localhost",
+    "port":5432,
+    "user":"converge",
+    "pwd":"converge",
+    "db":"house"
+},
+    "demo":{
+	"scenario":"Scenario X",
+	"target_query":"select ra,dec from sdss_sampledb_point4_percent WHERE ra > 240 AND ra < 250 AND dec > -5 AND dec < 0;"
+    },
+    "query":{
+        "attributes":["ra", "dec"],
+        "tableName":"sdss_sampledb_point4_percent",
+        "focusedExploration":false,
+	"lowerBounds":[250, -5],
+	"upperBounds":[270, 0],
+	"visualAttributes":["w", "h"],
+	"key":"objid"
+    }
+}

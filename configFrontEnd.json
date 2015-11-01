@@ -1,0 +1,20 @@
+{
+"db":{
+		"host":"localhost",
+		"port":5432,
+		"user":"converge",
+		"pwd":"converge",
+		"db":"house"
+},
+"demo":{
+		"scenario":"Scenario 2",
+		"target_query":"select beds, price from real_estate where beds<3 and price<200000;"
+},
+    "query":{
+        "attributes":["beds", "price"],
+        "tableName":"real_estate",
+	"focusedExploration":false,
+	"visualAttributes":["beds", "price"],
+	"key":"id"
+    }
+}
