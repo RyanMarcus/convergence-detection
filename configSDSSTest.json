@@ -8,7 +8,7 @@
 },
     "demo":{
 	"scenario":"Scenario X",
-	"target_query":"select ra,dec from sdss_sampledb_point4_percent WHERE ra > 240 AND ra < 250 AND dec > -5 AND dec < 0;"
+	"target_query":"select ra,dec from sdss_sampledb_point4_percent WHERE ra > 1 AND ra < 955 AND dec > 5 AND dec < 60;"
     },
     "query":{
         "attributes":["ra", "dec"],

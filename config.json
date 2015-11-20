@@ -10,7 +10,7 @@
 	"maxNumberOfSamples":1600,
 	"percentAroundMisclassified":2,
 	"percentAroundBoundary":5,
-	"numberOfGrids":5,
+	"numberOfGrids":10,
 	"exploitSamples":10,
 	"gridDividingFactor":2,
 	"gridFolder":"explorationLevels",
