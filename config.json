@@ -9,7 +9,7 @@
 	"exploitError":2,
 	"maxNumberOfSamples":1600,
 	"percentAroundMisclassified":2,
-	"percentAroundBoundary":1,
+	"percentAroundBoundary":5,
 	"numberOfGrids":5,
 	"exploitSamples":10,
 	"gridDividingFactor":2,
